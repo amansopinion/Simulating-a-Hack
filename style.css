@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: black;
+    color: lightgreen;
+    font-family: 'Courier New', Courier, monospace;
+    overflow: hidden;
+}
+
+#bash {
+    white-space: pre-wrap;
+    font-size: 16px;
+    padding: 20px;
+}
+
+.progress-bar {
+    background: #333;
+    border: 2px solid #00ff00;
+    width: 300px;
+    margin-top: 10px;
+}
+
+.progress-bar-fill {
+    background: #00ff00;
+    height: 10px;
+    width: 0%;
+    transition: width 0.1s;
+}
